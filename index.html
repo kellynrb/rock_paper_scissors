@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <!--Prompts the user to choose a play-->
+    <div class = "form">
+        <label for="choiceField" class="prompt">Rock, paper, or scissors? </label>
+        <input type="text" id="choiceField" class="choiceField">
+        <input type="submit" id="button" value="Shoot!" class="choiceSubmit">
+    </div>
+
+    <!--Displays results and final winner-->
+    <div class = "results">
+        <p class="winner"></p>
+        <p class="winTotal"></p>
+        <p class="lossTotal"></p>
+        <p class="gameStatus"></p>
+    </div>
+
+    <script src="rps.js">
+    </script>
+</body>
+</html>
